@@ -89,7 +89,7 @@ after_success:
 
 deploy:
   provider: releases
-  api_key: "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"
+  api_key: "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"
   file: "junest-x86_64.tar.gz"
   skip_cleanup: true
   on:
