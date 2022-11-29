@@ -87,6 +87,7 @@ after_success:
   - ./ci/deploy.sh ./junest-x86_64.tar.gz
 
 
+
 deploy:
   provider: releases
   api_key: "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"
