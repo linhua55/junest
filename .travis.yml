@@ -80,17 +80,17 @@ script:
   - yes | junest setup --delete
 
 
-after_success:
+#after_success:
   #######################
   # Deploy and validation
   #######################
-  - ./ci/deploy.sh ./junest-x86_64.tar.gz
+  #- ./ci/deploy.sh ./junest-x86_64.tar.gz
 
 
 
 deploy:
   provider: releases
-  api_key: "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"
+  api_key: "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"
   file: "junest-x86_64.tar.gz"
   skip_cleanup: true
   on:
